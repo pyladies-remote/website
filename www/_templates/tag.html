@@ -1,0 +1,15 @@
+{% extends 'layout.html' %}
+
+
+{% set title = 'Blog &rsaquo; Archives  &rsaquo; ' ~ tag.name %}
+
+{% block breadcrumbs %}
+    <ul id="breadcrumbs">
+        <li><a href="{{ get_url() }}" data-pjax="#content">Blog</a><span>&rsaquo;</span></li>
+        <li><a href="{{ get_url('archives/') }}" data-pjax="#content">Archives</a><span>&rsaquo;</span></li>
+        <li>{{ tag.name }}</li>
+    </ul>
+{% endblock %}
+
+{% block content %}
+{% endblock %}

@@ -1,0 +1,24 @@
+{% extends 'layout.html' %}
+
+
+{% set title = item.slug %}
+
+{% block breadcrumbs %}
+    <ul id="breadcrumbs">
+        <li><a href="{{ get_url() }}">Blog</a><span>&rsaquo;</span></li>
+        <li>{{ item.title|truncate(75) }}</li>
+    </ul>
+{% endblock %}
+
+{% block content %}
+    <div class="item">
+        <div class="item-header">
+            <h1>{{ item.title }}</h1>
+            <h2>{{ item.date }}</h2>
+        </div>
+
+        <div class="item-body">
+            {{ item.content }}
+        </div>
+    </div>
+{% endblock %}
