@@ -1,0 +1,9 @@
+deploy:
+  provider: heroku
+  api_key:
+    secure: pvfh8efwVL2smJYU064hQl6kKIUNXAGBYiHBp/OQ6Uw38FCePxmd7bkyBFAJ35hMoezL6a2lpukdXXUItXn7WIWTOuAGWTD6iRdaMw2TH01B7krmEXjFKPlMm/KLtamIRNHMh3vzt+pacIp7ZFDfBt9cOPOCHIMLaprHIDKuHRu59YXSM8oldLFHUazjCC+nvOgk7zyszBrNsWoQ0xAlpoWSGlzELwFqFIMgc96iaMiXRC+8PN4hhIHQVGfEu4qVQo3v5Z72ppP+RFzWBzjsFIl9u9myPwi0sJuHfc0GJykD7ybV3l/Mhmg42rd7p92N+bL+PNj8kV1qkfG2P6Pl9xyyWwsyLTofngKflB0WDbrFFHRFYOshatcwmvHesmooq/ushXZ9lNcD0CMd4QeWFgrCDDozRkh+Ik/f3adafK6eM/vXo+gQlVhgQ/9B9Ol5QGmXRAHdNanYQuGxDBL1xRchxf8clOWOp1167I64Kf+5C9nMoCo205IyWlBYHnEI5TCoS/iAHg3VRGiI+tpExCW+nJZwtBsPyjj76sLY3BW3pnjB65IrKkArpaZjj8r6vElQfqrv+qM61GSsg+u17L47u88/nevkzkwRAVaqHjfitIpzM3cUkilTy1zDTHwCiA6E37EsLB8onNX0iPr1tzje9PzJ6xG63gnPvSWdXS8=
+  app:
+    pyladies-remote-staging
+  on:
+    repo: pyladies-remote/website
+  before_deploy: "echo 'ready?'"
