@@ -1,9 +1,11 @@
-language: php
-php:
-  - '7.0'
+language: python
+python:
+  - "2.7"
+install: "pip install -r requirements.txt"
 script:
   - echo 'this is a static site not an app'
 deploy:
+  skip_cleanup: true
   provider: heroku
   buildpack: php
   api_key:
@@ -14,3 +16,6 @@ deploy:
   on:
     repo: pyladies-remote/website
     branch: production
+    branch: staging
+before_deploy:
+  - ./before_deploy.sh
