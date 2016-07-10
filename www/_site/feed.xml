@@ -5,7 +5,7 @@
     <link rel="alternate" href="http://remote.pyladies.com/" />
     <link rel="self" href="http://remote.pyladies.com/feed.xml" type="application/atom+xml" />
     <id>http://remote.pyladies.com/</id>
-    <updated>2016-06-06T21:17:44Z</updated>
+    <updated>2016-07-10T13:30:13Z</updated>
 
     <author>
         <name>Anna Ossowski</name>
@@ -18,7 +18,7 @@
             <title>It works!</title>
             <link rel="alternate" href="http://remote.pyladies.com/2011/12/04/It-works/" type="text/html" />
             <id>http://remote.pyladies.com/2011/12/04/It-works/</id>
-            <updated>2011-12-04T01:25:00Z</updated>
+            <updated>2011-12-04T13:30:00Z</updated>
 
             <summary type="html">&lt;em&gt;Don&amp;rsquo;t delete me! I&amp;rsquo;ll do whatever you want!&lt;/em&gt;</summary>
             <content type="html">&lt;p&gt;&lt;em&gt;Don&amp;rsquo;t delete me! I&amp;rsquo;ll do whatever you want!&lt;/em&gt;&lt;/p&gt;
