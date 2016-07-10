@@ -13,9 +13,5 @@ deploy:
   app:
     production: remote-pyladies
     staging: pyladies-remote-staging
-  on:
-    repo: pyladies-remote/website
-    branch: production
-    branch: staging
 before_deploy:
   - ./before_deploy.sh
