@@ -1,6 +1,8 @@
 PyLadies Remote
 ==========
 
+# Local Development
+
 From within remote/
 
 $ `pip install -r requirements.txt`
@@ -13,4 +15,12 @@ $ `mynt gen -f _site && mynt serve _site`
 Deploy
 ------
 
-To deploy (you will need SSH access, so either @econchick or @estherbester for now), from within `remote/www` run `./_deploy.sh`.  It will first generate the HTML files into `remote/www/_site` then `rsync` the files to our server into the `remote` directory.
+1. Submit a PR to the `staging` branch, and merge it.
+   You should be able to watch your build on staging from TravisCi,
+   and if it completes successfully you can view your changes
+   at: https://pyladies-remote-staging.herokuapp.com/index.html
+
+1. Once you've confirmed everything looks alright on the staging app,
+   submit a PR to production and make sure tests pass, etc, before working
+   with your co-organizer to merge.
+
