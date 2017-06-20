@@ -4,7 +4,11 @@
 <head>
   {% include 'page.header.html' %}
 
-  {% if site.slug %}<title>{% if title %}{{ title }} &ndash; {% endif %}{{ site.slug }}{% if not title and site.subtitle %} &ndash; {{ site.subtitle }}{% endif %}</title>{% endif %}
+  {% if site.slug %}
+    <title>{% if title %}{{ title }} &ndash; {% endif %}{{ site.slug }}{% if not title and site.subtitle %} &ndash; {{ site.subtitle }}{% endif %}</title>
+  {% else %}
+    <title>PyLadies Remote</title>
+  {% endif %}
 </head>
 
 <body>
