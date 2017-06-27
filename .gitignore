@@ -58,5 +58,12 @@ docs/_build/
 # PyBuilder
 target/
 
-#Ipython Notebook
+# Ipython Notebook
 .ipynb_checkpoints
+
+# Commonly used Python virtualenv directories
+env/
+venv/
+
+# Ignore generated static files
+www/_site/
