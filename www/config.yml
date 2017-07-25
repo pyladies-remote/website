@@ -30,21 +30,3 @@ email: remote@pyladies.com
 subtitle:
 # Your site's title. (required to generate a valid feed)
 title: PyLadies Remote
-
-
-#
-# THIRD PARTY SETTINGS
-#
-
-# If you'd like to enable Google Analytics for your site, set this to your tracking code.
-analytics:
-
-
-#
-# Chances are you probably don't need to touch anything below here.
-#
-
-archive_layout: archive.html
-archives_url: /archives/
-tag_layout: tag.html
-tags_url: /archives/
