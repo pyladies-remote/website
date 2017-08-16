@@ -1,3 +1,5 @@
+#!/usr/bin/env bash
+
 cd www
 mynt gen -f _site
 cp -a _site/. ../
